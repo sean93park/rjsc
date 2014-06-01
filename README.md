@@ -10,7 +10,7 @@ Rubus Javascript console for Raspiberry Pi
 ```
 $ . /build/setenv
 ```
-* building for raspberry pi test helloworld
+* building test helloworld to check cross compilation for raspberry pi
 ```
 $ cd test/helloworld
 $ make
@@ -18,6 +18,16 @@ $ scp helloworld rpi@IP_ADDR_RPI:/home/pi/.
 $ ssh pi@IP_ADDR_RPI
 $ ./helloworld
 ```
+
+* build libuv
+```
+TBD
+```
+* build spidermonkey
+```
+TBD
+```
+
 
 
 
