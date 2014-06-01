@@ -1,0 +1,13 @@
+#!/bin/bash
+PATH=$PATH:`pwd`/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin
+export PI_TOOLS_HOME=`pwd`/tools
+
+export TOOL_PREFIX=arm-bcm2708hardfp-linux-gnueabi
+export CXX=$TOOL_PREFIX-g++
+export AR=$TOOL_PREFIX-ar
+export RANLIB=$TOOL_PREFIX-ranlib
+export CC=$TOOL_PREFIX-gcc
+#export LD=$TOOL_PREFIX-ld
+export LD=$TOOL_PREFIX-gcc
+export CCFLAGS="-march=armv6 -mno-thumb-interwork"
+
