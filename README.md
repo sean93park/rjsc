@@ -11,6 +11,7 @@ rjsc
 $ git clone git@github.com:sean93park/rjsc.git
 $ cd rjsc
 $ git submodule update --init
+```
 
 ### how to build
 
