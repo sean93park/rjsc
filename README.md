@@ -6,7 +6,7 @@ rjsc
 - Planned to be the basic building block for JavaScript programming world.
 - It's in design and prototyping with simple scripts
 
-### prepaing the source
+### preparing the source
 ```
 $ git clone git@github.com:sean93park/rjsc.git
 $ cd rjsc
