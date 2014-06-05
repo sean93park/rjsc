@@ -1,6 +1,6 @@
 1) how to build?
-mkdir build
-cd build 
+mkdir out
+cd out
 cmake ..
 make
 

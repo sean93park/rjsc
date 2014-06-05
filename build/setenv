@@ -1,5 +1,6 @@
 #!/bin/bash
 PATH=$PATH:`pwd`/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin
+export RJSC_HOME=`pwd`
 export PI_TOOLS_HOME=`pwd`/tools
 
 export TOOL_PREFIX=arm-bcm2708hardfp-linux-gnueabi

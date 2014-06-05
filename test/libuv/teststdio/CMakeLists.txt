@@ -10,8 +10,12 @@ add_definitions (-D__STDC_LIMIT_MACROS)
 set (MY_FLAGS "-Wno-invalid-offsetof")
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${MY_FLAGS}")
 
+set (LIBUV_PATH_LIB "${CMAKE_SOURCE_DIR}/../../../out/libuv/.libs")
+set (LIBUV_PATH_INC "${CMAKE_SOURCE_DIR}/../../../lib/libuv/include")
+set (LIBUV_LIBS "${LIBUV_PATH_LIB}/libuv.a")
+
 include_directories (
-	/opt/js/include
+	${LIBUV_PATH_INC}
 )
 
 set (SOURCE_FILES
@@ -19,8 +23,7 @@ set (SOURCE_FILES
 )
 
 set (EXTRA_LIBS
-	-lrt -lpthread -lnsl -ldl
-	/opt/js/lib/libuv.a
+	-lrt -lpthread -lnsl -ldl ${LIBUV_LIBS}
 )
 
 add_executable (${EXEC_NAME} ${SOURCE_FILES})
