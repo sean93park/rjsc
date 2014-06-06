@@ -34,14 +34,20 @@ $ ./helloworld
 $ ./build/prepare.sh
 ```
 
-* build libuv for raspberry pi
+* configure sub modules for raspberry pi
+```
+$ ./build/config_libuv.sh
+$ ./build/config_mozjs24.sh
+```
+
+* build libuv
 ```
 $ ./build/build_libuv.sh
 ```
 
-* build spidermonkey for raspberry pi
+* build spidermonkey
 ```
-TBD
+$ ./build/build_mozjs24.sh
 ```
 
 
