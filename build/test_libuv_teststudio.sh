@@ -5,4 +5,6 @@ mkdir -p out
 cd out
 cmake ..
 make
-cd $RJSC_HOME
+#cd $RJSC_HOME
+ls -al
+
