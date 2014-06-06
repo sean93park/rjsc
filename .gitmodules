@@ -4,9 +4,6 @@
 [submodule "lib/libuv"]
 	path = lib/libuv
 	url = git@github.com:sean93park/libuv.git
-[submodule "lib/gecko-dev"]
-	path = lib/gecko-dev
-	url = git@github.com:sean93park/gecko-dev.git
 [submodule "lib/mozjs24"]
 	path = lib/mozjs24
 	url = git@github.com:sean93park/mozjs24.git
