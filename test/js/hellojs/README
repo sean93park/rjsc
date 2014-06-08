@@ -1,0 +1,14 @@
+1) how to build?
+mkdir out
+cd out
+cmake ..
+make
+
+2) send hellojs to raspberry pi with 'scp'
+ scp hellojs pi@192.168.1.10:/home/pi/.
+(change 192.168.1.10 to your raspberry pi IP address)
+
+3) run in raspberry pi
+ ./hellojs
+
+
