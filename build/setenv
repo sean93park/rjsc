@@ -2,6 +2,8 @@
 PATH=$PATH:`pwd`/tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin
 export RJSC_HOME=`pwd`
 export PI_TOOLS_HOME=`pwd`/tools
+export RJSC_OUT=out.arm
+export RJSC_CFG_HOSTTARGET="--host=i686-pc-linux-gnu --target=arm-bcm2708hardfp-linux-gnueabi"
 
 export TOOL_PREFIX=arm-bcm2708hardfp-linux-gnueabi
 export CXX=$TOOL_PREFIX-g++

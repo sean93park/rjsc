@@ -1,0 +1,5 @@
+#!/bin/bash
+export RJSC_HOME=`pwd`
+export PI_TOOLS_HOME=`pwd`/tools
+export RJSC_OUT=out.x86
+export RJSC_CFG_HOSTTARGET=""

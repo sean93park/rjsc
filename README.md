@@ -20,6 +20,11 @@ $ git submodule update --init
 $ . ./build/setenv
 ```
 
+* for x86
+```
+$ . ./build/setenv.x86
+```
+
 * building test helloworld to check cross compilation for raspberry pi
 ```
 $ cd test/helloworld

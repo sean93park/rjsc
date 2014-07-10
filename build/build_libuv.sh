@@ -1,6 +1,6 @@
 #!/bin/bash
 cd $RJSC_HOME
-cd out/libuv
+cd $RJSC_OUT/libuv
 make -j4
 cd $RJSC_HOME
 
